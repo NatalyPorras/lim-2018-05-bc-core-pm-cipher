@@ -42,14 +42,12 @@ decode: function (offset,string){
     desencryptWord += caracterD;//el contenedor almacena cada caracter
   }
   return desencryptWord;
+},
+createCipherWithOffset: function (){
+let cipherED = new Object(),
+  const encoded= cipher.encode(string),
+  const decoded= cipher.decode(string);
+return cipherED;
 }
-// createCipherWithOffset: function (){
-//   const string= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-//   const encodedS= cipher.encode(string);
-
-// mensajeS.value(encodedS);
-//   const decodedString=cipher.decode(string);
-//   console.log(decodedString);
-// }
 
 };
