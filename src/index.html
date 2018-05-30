@@ -7,6 +7,33 @@
   </head>
   <body>
     <div id="root"></div>
+    <header>
+      <p>
+        BY: NATALY PORRAS COSSI
+      </p>
+      <h2> CAESAR CIPHER</h2>
+    </header>
+    <hr>
+    <div id="box1">
+      <div id="mov">
+          <p>Ingresar la cantidad de desplazamiento: </p>
+          <input type="text" id="camb">
+      </div>
+      <div id="paintText">
+        <p>Ingresa texto: </p>
+        <textarea id="textI" rows="10" cols="40" placeholder="Escribe texto aqui"></textarea>
+      </div>
+      <div id="iconF"> <i class="icon-right"></i></div>
+      <div id="cipherText">
+        <p>Texto cifrado: </p>
+        <textarea id="textO" rows="10" cols="40"> </textarea>
+      </div>
+    </div>
+    <div id="box2">
+      <button id="cipherB"> Cifrar </button>
+      <button id="decipherB"> Decifrar </button>
+      <button id="resetT"> Reset </button>
+    </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

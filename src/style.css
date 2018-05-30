@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+@media all and (min-width: 40px){
+        header{
+                /* Reverse the axis of the header, making it vertical. */
+                flex-direction: column;
+                
+                /* Align items to the begining (the left) of the header. */
+                align-items: flex-start;
+                padding: 2px 0px;
+        }
+        header h2{
+				text-align: center;
+				font-family: 'kavivanar-Regular';
+				font-size: 30px;
+		}
+		header p{
+				font-family: sans-serif;
+				float: right;
+				margin: 0px 5% 0px 0px;
+		}
+		#box1{
+			padding: 20px 0;
+		}
+
+		#mov p{
+			text-align: center;
+		}
+		#mov input{
+			text-align: center;
+			margin : 0px 0px 0px 40%;
+		}
+
+		#box1 #paintText{
+			display: inline-block;
+			position: relative;
+			left: 20%;
+			padding: 5px;
+		}
+		#box1 p{
+			font-size: 25px;
+			margin: 0px 0px 5px 0px;
+		}
+		#box1 #iconF{
+			display: inline-block;
+			position: absolute;
+			left: 48%;
+			margin: 95px 0px;
+			font-size: 45px;
+		}
+		#box1 #cipherText{
+			display: inline-block;
+			position: absolute;
+			right: 20%;
+			padding: 5px;
+		}
+		#box2{
+			padding: 15px 0px;
+		}
+		#box2 #cipherB{
+			position: relative;
+			left: 27%;
+			font-size: 20px;
+			border-radius: 5px;
+			padding: 5px 10px;
+		}
+		#box2 #decipherB{
+			position: relative;
+			left: 40%;
+			font-size: 20px;
+			border-radius: 5px;
+			padding: 5px 10px;
+		}
+		#box2 #resetT{
+			position: absolute;
+			right: 30%;
+			font-size: 20px;
+			border-radius: 5px;
+			padding: 5px 10px;
+		}
+}
