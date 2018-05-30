@@ -5,6 +5,7 @@ let numb=document.getElementById("camb");
 //se declara las variables para capturar los ids de los buttons 
 let btnC= document.getElementById("cipherB");
 let btnD= document.getElementById("decipherB");
+let btnclean=document.getElementById("resetT");
 
 //se crean dos eventos button donde se pasan las funciones del cifrado y descifrado, 
 btnC.addEventListener('click',function(){
@@ -12,5 +13,9 @@ mensajeS.value=cipher.encode(numb.value,mensajeE.value);
 });
  
 btnD.addEventListener('click',function(){
-  mensajeS.value=cipher.decode(numb.value,mensajeE.value);
+  mensajeS.value=cipher.decode(33,mensajeE.value);
+});
+btnclean.addEventListener('click',function(){
+  mensajeS.value = " ";
+  mensajeE.value = " ";
 });

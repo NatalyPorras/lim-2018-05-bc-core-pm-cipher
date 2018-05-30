@@ -1,10 +1,7 @@
 window.cipher = {
-  // ... 
-};
-window.cipher = {
   // La funcion cifra la palabra la inresar
  encode: function (offset,string){//se ingresa dos parametrosla cantidad de desplazamiento y los datos de la caja
-  //se declaran los ocntenedores
+  //se declaran las variables que van a contener ciertas valores
   let caracterA = "";
   let caracter = " ";
   let encryptWord= "";
@@ -24,37 +21,35 @@ window.cipher = {
   }
  return encryptWord;// Aqui llamo a la funcion que hara el desplazamiento
 },
+  // La funcion cifra la palabra la inresar
 decode: function (offset,string){
-
+  //se declaran las variables que van a contener ciertas valores
   let caracterAc = "";
   let caracterD = "";
   let desencryptWord= "";
   let desplazarN= parseInt(offset);//parsea mi dato y me devuelve un entero
-  
+//Se re crea un bucle para recorrer toda la palabra o frase ingresada
  for (let j = 0; j < string.length; j++) {
-
-  let codigoAsc = string.charCodeAt(j);
-
-    if (codigoAsc >= 65 && codigoAsc<=90) {
-
-       caracterAc = ((codigoAsc-90-desplazarN)%26 + 90); 
-
-     }else if(codigoAsc >= 97 && codigoAsc<=122){
-
-     caracterAc = ((codigoAsc-122-desplazarN)%26 + 122); 
-      }
-    caracterD = String.fromCharCode(caracterAc);
-    desencryptWord += caracterD;
+  let codigoAsc = string.charCodeAt(j);// se declara la variable codigoAd donde se almacenara el codigo ASCII de la primera letra de la palabra
+    if (codigoAsc >= 65 && codigoAsc<=90) {//codicionamos delimitando el caracter que son MAYUSCULAS
+       caracterAc = ((codigoAsc-90-desplazarN)%26 + 90); //formula para realizar el desplazamiento fijo que se da, obteniendo el nuevo caracter
+    }else if(codigoAsc >= 97 && codigoAsc<=122){//codicionamos delimitando el caracter que son minusculas
+           caracterAc = ((codigoAsc-122-desplazarN)%26 + 122); //formula para realizar el desplazamiento fijo que se da, obteniendo el nuevo caracter
+          }else{
+            caracterAc = string.charAt(j);//se obtiene el mismo valor
+          }
+    caracterD = String.fromCharCode(caracterAc);// registra el cambio del codigo ASCII a la palabra correcta
+    desencryptWord += caracterD;//el contenedor almacena cada caracter
   }
   return desencryptWord;
-},
-createCipherWithOffset: function (){
-  const string= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  const encodedS= cipher.encode(string);
-
-mensajeS.value(encodedS);
-  const decodedString=cipher.decode(string);
-  console.log(decodedString);
 }
+// createCipherWithOffset: function (){
+//   const string= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//   const encodedS= cipher.encode(string);
+
+// mensajeS.value(encodedS);
+//   const decodedString=cipher.decode(string);
+//   console.log(decodedString);
+// }
 
 };
