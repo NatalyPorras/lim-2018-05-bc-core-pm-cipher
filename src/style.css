@@ -10,17 +10,24 @@ body{
                 
                 /* Align items to the begining (the left) of the header. */
                 align-items: flex-start;
-                padding: 2px 0px;
+				padding: 2px 0px;
+				background-color:  #34495e;
+
         }
         header h2{
 				text-align: center;
+				margin: 15px auto;
 				font-family: 'kavivanar-Regular';
-				font-size: 30px;
+				font-size: 50px;
+				color: white;
+				padding: 0 0 0 10%;
+				
 		}
 		header p{
 				font-family: sans-serif;
 				float: right;
-				margin: 0px 5% 0px 0px;
+				color: white;
+				margin: 0;
 		}
 		#box1{
 			padding: 20px 0;
@@ -28,10 +35,11 @@ body{
 
 		#mov p{
 			text-align: center;
+			font-family: sans-serif;
 		}
 		#mov input{
 			text-align: center;
-			margin : 0px 0px 0px 40%;
+			margin : 0px 0px 0px 43%;
 		}
 
 		#box1 #paintText{
@@ -43,6 +51,7 @@ body{
 		#box1 p{
 			font-size: 25px;
 			margin: 0px 0px 5px 0px;
+			font-family: sans-serif;
 		}
 		#box1 #iconF{
 			display: inline-block;
@@ -65,20 +74,29 @@ body{
 			left: 27%;
 			font-size: 20px;
 			border-radius: 5px;
-			padding: 5px 10px;
+			padding: 5px 20px;
+			font-family: 'kavivanar-Regular';
+			background-color: #e74c3c;
+			color: white;
 		}
 		#box2 #decipherB{
 			position: relative;
 			left: 40%;
 			font-size: 20px;
 			border-radius: 5px;
-			padding: 5px 10px;
+			padding: 5px 20px;
+			color: white;
+			font-family: 'kavivanar-Regular';
+			background-color: #e74c3c;
 		}
 		#box2 #resetT{
 			position: absolute;
 			right: 30%;
 			font-size: 20px;
 			border-radius: 5px;
-			padding: 5px 10px;
+			padding: 5px 20px;
+			color: white;
+			font-family: 'kavivanar-Regular';
+			background-color: #e74c3c;
 		}
 }
