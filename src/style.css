@@ -3,7 +3,7 @@ body{
 	padding: 0;
 }
 
-@media all and (min-width: 40px){
+@media all and (min-width: 1px){
         header{
                 /* Reverse the axis of the header, making it vertical. */
                 flex-direction: column;
