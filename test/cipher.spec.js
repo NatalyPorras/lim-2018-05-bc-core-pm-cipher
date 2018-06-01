@@ -11,15 +11,15 @@ describe('cipher', () => {
     });
 
     it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', () =>{
-      assert.equal(cipher.encode("33","ABCDEFGHIJKLMNOPQRSTUVWXYZ"), "HIJKLMNOPQRSTUVWXYZABCDEFG");
+      assert.equal(cipher.encode(33,"ABCDEFGHIJKLMNOPQRSTUVWXYZ"), "HIJKLMNOPQRSTUVWXYZABCDEFG");
     });
 
     it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33', () =>{
-      assert.equal(cipher.encode("33","abcdefghijklmnopqrstuvwxyz"), "hijklmnopqrstuvwxyzabcdefg");
+      assert.equal(cipher.encode(33,"abcdefghijklmnopqrstuvwxyz"), "hijklmnopqrstuvwxyzabcdefg");
     });
 
     it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33', () =>{
-      assert.equal(cipher.encode("33","ab\u0000cdefghijklmnopqrstuvwxyz"), "hi\u0000jklmnopqrstuvwxyzabcdefg");
+      assert.equal(cipher.encode(33,"ab9cdefghijklmnopqrstuvwxyz"), "hi9jklmnopqrstuvwxyzabcdefg");
     });
 
   });
@@ -31,15 +31,15 @@ describe('cipher', () => {
     });
 
     it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33', ()=> {
-      assert.equal(cipher.decode("33","HIJKLMNOPQRSTUVWXYZABCDEFG"), "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+      assert.equal(cipher.decode(33,"HIJKLMNOPQRSTUVWXYZABCDEFG"), "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
     });
 
     it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33', () =>{
-      assert.equal(cipher.decode("33","hijklmnopqrstuvwxyzabcdefg"), "abcdefghijklmnopqrstuvwxyz");
+      assert.equal(cipher.decode(33,"hijklmnopqrstuvwxyzabcdefg"), "abcdefghijklmnopqrstuvwxyz");
     });
 
     it('debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33', () =>{
-      assert.equal(cipher.decode("33","hi\u0000jklmnopqrstuvwxyzabcdefg"), "ab\u0000cdefghijklmnopqrstuvwxyz");
+      assert.equal(cipher.decode(33,"hi9jklmnopqrstuvwxyzabcdefg"), "ab9cdefghijklmnopqrstuvwxyz");
     });
   });
 

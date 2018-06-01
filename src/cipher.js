@@ -36,7 +36,7 @@ decode: function (offset,string){
     }else if(codigoAsc >= 97 && codigoAsc<=122){//codicionamos delimitando el caracter que son minusculas
            caracterAc = ((codigoAsc-122-offset)%26 + 122); //formula para realizar el desplazamiento fijo que se da, obteniendo el nuevo caracter
           }else{
-            caracterAc = string.charAt(j);//se obtiene el mismo valor
+            caracterAc = codigoAsc;//se obtiene el mismo valor
           }
     caracterD = String.fromCharCode(caracterAc);// registra el cambio del codigo ASCII a la palabra correcta
     desencryptWord += caracterD;//el contenedor almacena cada caracter
