@@ -9,24 +9,25 @@
   <body>
     <div id="root"></div>
     <header>
-      <p>
-        BY: NATALY PORRAS COSSI
-      </p>
-      <h2> CAESAR CIPHER</h2>
+      <div id="circulo"></div>
+      <div id="circulo1"></div>
+      <div id="circulo2"></div>
+      <h2> Surprise Party </h2>
     </header>
     <hr>
-    <div id="box1">
+    
       <div id="mov">
           <p>Ingresar la cantidad de desplazamiento: </p>
           <input type="text" id="camb">
       </div>
+      <div id="box1">
       <div id="paintText">
-        <p>Ingresa texto: </p>
+        <p>Ingresa el mensaje de texto: </p>
         <textarea id="textI" rows="10" cols="40" placeholder="Escribe texto aqui"></textarea>
       </div>
       <div id="iconF"> <i class="icon-right"></i></div>
       <div id="cipherText">
-        <p>Texto cifrado: </p>
+        <p>Mensaje cifrado: </p>
         <textarea id="textO" rows="10" cols="40"> </textarea>
       </div>
     </div>
@@ -34,6 +35,14 @@
       <button id="cipherB"> Cifrar </button>
       <button id="decipherB"> Decifrar </button>
       <button id="resetT"> Reset </button>
+    </div>
+    <ol id="recomend">
+      <li>Para el cifrado de texto, se pide ingresar solo letras en MAYUSCULAS o minusculas</li>
+    </ol>
+    <div id="pieP">
+      <p>
+       <b> By: Naty Porras Cossi </b>
+      </p>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

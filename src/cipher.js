@@ -14,7 +14,7 @@ window.cipher = {
     }else if(codigoAs >= 97 && codigoAs<=122){//codicionamos delimitando el caracter que son minusculas
             caracterA = ((codigoAs-97+offset)%26 + 97); //formula para realizar el desplazamiento fijo que se da, obteniendo el nuevo caracter
           }else{
-            caracterA = string.charAt(i);//se obtiene el mismo valor
+            caracterA = codigoAs;//se obtiene el mismo valor
           }
     caracter = String.fromCharCode(caracterA);// registra el cambio del codigo ASCII a la palabra correcta
     encryptWord += caracter;//el contenedor almacena cada caracter
