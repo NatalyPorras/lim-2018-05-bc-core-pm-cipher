@@ -19,4 +19,5 @@ btnD.addEventListener('click',function(){
 btnclean.addEventListener('click',function(){
   mensajeS.value = " ";
   mensajeE.value = " ";
+  numb.value = " ";
 });
