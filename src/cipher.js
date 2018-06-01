@@ -1,6 +1,6 @@
 window.cipher = {
   // La funcion cifra la palabra la inresar
- encode: function (offset,string){//se ingresa dos parametrosla cantidad de desplazamiento y los datos de la caja
+ encode: (offset,string) =>{//se ingresa dos parametrosla cantidad de desplazamiento y los datos de la caja
   //se declaran las variables que van a contener ciertas valores
   let caracterA = "";
   let caracter = " ";
@@ -22,7 +22,7 @@ window.cipher = {
  return encryptWord;// Aqui llamo a la funcion que hara el desplazamiento
 },
   // La funcion cifra la palabra la inresar
-decode: function (offset,string){
+decode: (offset,string)=>{
   //se declaran las variables que van a contener ciertas valores
   let caracterAc = "";
   let caracterD = "";
@@ -43,18 +43,15 @@ decode: function (offset,string){
   }
   return desencryptWord;
 },
-createCipherWithOffset: function (offset){
+createCipherWithOffset: (offset)=>{
 let cipherED = {
- 
-  encode:function(string){
+  encode:(string)=>{
     return cipher.encode(offset,string);
   },
-  decode:function(string){
+  decode:(string)=>{
     return cipher.decode(offset,string);
-
   }
 };
 return cipherED;
 }
-
 };
