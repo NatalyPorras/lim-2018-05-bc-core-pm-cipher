@@ -1,153 +1,8 @@
 body{
 	margin: 0;
 	padding: 0;
-	width: 100%
 }
-header{
-	/* Reverse the axis of the header, making it vertical. */
-	flex-direction: column;
-	
-	/* Align items to the begining (the left) of the header. */
-	align-items: flex-start;
-	padding: 2px 0px;
-	background-color:  #fd79a8;
-
-}
-#circulo {
-width: 105px;
-height: 105px;
-display: inline-block;
-position: absolute;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-border-radius: 50%;
-background: #ED4C67;
-}
-#circulo1 {
-width: 80px;
-height: 80px;
-margin: 20px 0 20px 20px;
-display: inline-block;
-position: absolute;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-border-radius: 50%;
-background: #f6b93b;
-}
-#circulo2 {
-width: 50px;
-height: 50px;
-margin: 45px 0 25px 45px;
-display: inline-block;
-position: absolute;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-border-radius: 50%;
-background: #5cb85c;
-}
-header h2{
-	text-align: center;
-	margin: 15px auto;
-	font-family: 'kavivanar-Regular';
-	font-size: 50px;
-	color: white;
-	
-}		
-#mov {
-padding: 10px 0;
-font-size: 20px;
-}
-
-#mov p{
-text-align: center;
-font-family: sans-serif;
-margin: 0;
-}
-#mov input{
-text-align: center;
-margin : 10px 0px 0px 43%;
-font-size: 20px;
-}
-#box1{
-padding: 20px 0;
-}
-#box1 #paintText{
-display: inline-block;
-position: relative;
-left: 20%;
-padding: 5px;
-}
-#box1 p{
-font-size: 20px;
-margin: 0px 0px 5px 0px;
-font-family: sans-serif;
-}
-#box1 #iconF{
-display: inline-block;
-position: absolute;
-left: 48%;
-margin: 95px 0px;
-font-size: 45px;
-}
-#box1 #cipherText{
-display: inline-block;
-position: absolute;
-right: 20%;
-padding: 5px;
-}
-#box2{
-padding: 15px 350px;
-display: flex;
-flex-grow: row wrap;
-justify-content:space-around;
-}
-#box2 #cipherB{
-
-
-font-size: 20px;
-border-radius: 5px;
-padding: 5px 20px;
-font-family: 'kavivanar-Regular';
-background-color: #4a69bd;
-color: white;
-}
-#box2 #decipherB{
-
-font-size: 20px;
-border-radius: 5px;
-padding: 5px 20px;
-color: white;
-font-family: 'kavivanar-Regular';
-background-color: #4a69bd;
-}
-#box2 #resetT{
-
-font-size: 20px;
-border-radius: 5px;
-padding: 5px 20px;
-color: white;
-font-family: 'kavivanar-Regular';
-background-color: #4a69bd;
-}
-#recomend{
-font-family: 'kavivanar-Regular';
-position: relative;
-display: block;
-left: 250px;
-}
-
-#pieP{
-
-position: absolute;
-right: 20px;
-margin: 20px 0;
-}
-#pieP p{
-font-family: sans-serif;
-color:black;
-margin: 0;
-}
-@media (min-width: 768px) and (orientation: landscape){
+@media only screen and (min-width: 1px) {
 	header{
 		/* Reverse the axis of the header, making it vertical. */
 		flex-direction: column;
@@ -250,7 +105,7 @@ header h2{
 
 
 	font-size: 20px;
-	border-radius: 5px;
+	border-radius: 10px;
 	padding: 5px 20px;
 	font-family: 'kavivanar-Regular';
 	background-color: #4a69bd;
@@ -259,7 +114,7 @@ header h2{
 #box2 #decipherB{
 
 	font-size: 20px;
-	border-radius: 5px;
+	border-radius: 10px;
 	padding: 5px 20px;
 	color: white;
 	font-family: 'kavivanar-Regular';
@@ -268,153 +123,7 @@ header h2{
 #box2 #resetT{
 	
 	font-size: 20px;
-	border-radius: 5px;
-	padding: 5px 20px;
-	color: white;
-	font-family: 'kavivanar-Regular';
-	background-color: #4a69bd;
-}
-#recomend{
-	font-family: 'kavivanar-Regular';
-	position: relative;
-	display: block;
-	left: 250px;
-}
-
-#pieP{
-	
-	position: absolute;
-	right: 20px;
-	margin: 20px 0;
-}
-#pieP p{
-	font-family: sans-serif;
-	color:black;
-	margin: 0;
-}
-}
-@media (min-width: 1024px) and (orientation: landscape){
-	header{
-		/* Reverse the axis of the header, making it vertical. */
-		flex-direction: column;
-		
-		/* Align items to the begining (the left) of the header. */
-		align-items: flex-start;
-		padding: 2px 0px;
-		background-color:  #fd79a8;
-
-}
-#circulo {
-	width: 105px;
-	height: 105px;
-	display: inline-block;
-	position: absolute;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	background: #ED4C67;
-}
-#circulo1 {
-width: 80px;
-height: 80px;
-margin: 20px 0 20px 20px;
-display: inline-block;
-position: absolute;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-border-radius: 50%;
-background: #f6b93b;
-   }
-#circulo2 {
-width: 50px;
-height: 50px;
-margin: 45px 0 25px 45px;
-display: inline-block;
-position: absolute;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-border-radius: 50%;
-background: #5cb85c;
-}
-header h2{
-		text-align: center;
-		margin: 15px auto;
-		font-family: 'kavivanar-Regular';
-		font-size: 50px;
-		color: white;
-		
-}		
-#mov {
-	padding: 10px 0;
-	font-size: 20px;
-}
-
-#mov p{
-	text-align: center;
-	font-family: sans-serif;
-	margin: 0;
-}
-#mov input{
-	text-align: center;
-	margin : 10px 0px 0px 43%;
-	font-size: 20px;
-}
-#box1{
-	padding: 20px 0;
-}
-#box1 #paintText{
-	display: inline-block;
-	position: relative;
-	left: 20%;
-	padding: 5px;
-}
-#box1 p{
-	font-size: 20px;
-	margin: 0px 0px 5px 0px;
-	font-family: sans-serif;
-}
-#box1 #iconF{
-	display: inline-block;
-	position: absolute;
-	left: 48%;
-	margin: 95px 0px;
-	font-size: 45px;
-}
-#box1 #cipherText{
-	display: inline-block;
-	position: absolute;
-	right: 20%;
-	padding: 5px;
-}
-#box2{
-	padding: 15px 350px;
-	display: flex;
-	flex-grow: row wrap;
-	justify-content:space-around;
-}
-#box2 #cipherB{
-
-
-	font-size: 20px;
-	border-radius: 5px;
-	padding: 5px 20px;
-	font-family: 'kavivanar-Regular';
-	background-color: #4a69bd;
-	color: white;
-}
-#box2 #decipherB{
-
-	font-size: 20px;
-	border-radius: 5px;
-	padding: 5px 20px;
-	color: white;
-	font-family: 'kavivanar-Regular';
-	background-color: #4a69bd;
-}
-#box2 #resetT{
-	
-	font-size: 20px;
-	border-radius: 5px;
+	border-radius: 10px;
 	padding: 5px 20px;
 	color: white;
 	font-family: 'kavivanar-Regular';
