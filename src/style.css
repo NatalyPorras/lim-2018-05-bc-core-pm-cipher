@@ -1,7 +1,6 @@
 body{
 	margin: 0;
 	padding: 0;
-	width: 100%;
 }
 @media all and (min-width: 1px) {
 	header{
@@ -22,16 +21,16 @@ header h2{
 		font-family: 'kavivanar-Regular';
 		font-size: 50px;
 		color: white;
-		
 }		
 hr{
 	margin: 0;
 }
 #general{
-	background-image: url("imagenes/fondo5.jpg");
+	background-image: url("imagenes/fondo12.jpg");
 	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
+	width: auto;
+	height: 700px;
+	margin: 0;
 }
 #mov {
 	padding: 10px 0;
