@@ -1,6 +1,6 @@
 # **PROYECTO CIFRADO CESAR**
 
-## USUARIOS PRINCIPALES ##
+## - USUARIOS PRINCIPALES ##
 
 El uso de la pagina web, tiene como usuarios principales a los amigos de la novia y el novio, asimismo tiene la posibilidad de ser visto y utilizado por otros. 
 
