@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-image: url("imagenes/fondo3.png");
+	/*background-image: url("imagenes/fondo3.png");*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
@@ -17,42 +17,11 @@ body{
 		/* Align items to the begining (the left) of the header. */
 		align-items: flex-start;
 		padding: 2px 0px;
-		background-color:  rgba(237, 76, 103,0.6)
+		background-color:  rgba(0, 153, 153)
 	
 
 }
-#circulo {
-	width: 105px;
-	height: 105px;
-	display: inline-block;
-	position: absolute;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	background: #ED4C67;
-}
-#circulo1 {
-width: 80px;
-height: 80px;
-margin: 20px 0 20px 20px;
-display: inline-block;
-position: absolute;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-border-radius: 50%;
-background: #f6b93b;
-   }
-#circulo2 {
-width: 50px;
-height: 50px;
-margin: 45px 0 25px 45px;
-display: inline-block;
-position: absolute;
--moz-border-radius: 50%;
--webkit-border-radius: 50%;
-border-radius: 50%;
-background: #5cb85c;
-}
+
 header h2{
 		text-align: center;
 		margin: 15px auto;
@@ -61,6 +30,9 @@ header h2{
 		color: white;
 		
 }		
+#general{
+	background-color: pink;
+}
 #mov {
 	padding: 10px 0;
 	font-size: 20px;

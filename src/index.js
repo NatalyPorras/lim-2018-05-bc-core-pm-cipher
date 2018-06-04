@@ -9,7 +9,7 @@ let btnclean=document.getElementById("resetT");
 
 //se crean dos eventos button donde se pasan las funciones del cifrado y descifrado, 
 btnC.addEventListener('click',()=>{
-
+ 
 mensajeS.value=cipher.encode(parseInt(numb.value),mensajeE.value);
 });
  
