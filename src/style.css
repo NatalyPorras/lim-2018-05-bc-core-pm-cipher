@@ -2,12 +2,6 @@ body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	/*background-image: url("imagenes/fondo3.png");*/
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
-
-
 }
 @media all and (min-width: 1px) {
 	header{
@@ -16,7 +10,7 @@ body{
 		
 		/* Align items to the begining (the left) of the header. */
 		align-items: flex-start;
-		padding: 2px 0px;
+		padding: 10px 0px;
 		background-color:  rgba(0, 153, 153)
 	
 
@@ -24,13 +18,21 @@ body{
 
 header h2{
 		text-align: center;
-		margin: 15px auto;
+		margin: 0px auto;
 		font-family: 'kavivanar-Regular';
 		font-size: 50px;
 		color: white;
 		
 }		
-
+hr{
+	margin: 0;
+}
+#general{
+	background-image: url("imagenes/fondo5.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
 #mov {
 	padding: 10px 0;
 	font-size: 20px;
