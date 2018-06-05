@@ -184,34 +184,31 @@ hr{
 	font-size: 10px;
 }
 #box1{
-	padding: 20px 0;
+	padding: 10px 0;
 }
 #box1 #paintText{
-	display: block;
-	position: relative;
-	left: 10%;
-	padding: 5px;
-}
-#box1 p{
-	font-size: 10px;
-	margin: 0px 0px 5px 0px;
-	font-family: sans-serif;
+	left: 0;
+	margin: 5px 0px;
+	padding: 5px 10px;
 }
 #box1 #iconF{
 	display: block;
 	transform: rotate(90deg);
 	left: 48%;
 	margin: 15px 0px;
-
 	font-size: 25px;
 }
 #box1 #cipherText{
-	display: inline-block;
-	position: absolute;
-	left: 10%;
-	padding: 5px;
-	margin: 55px 0px;
+	left: 0;
+	top : 300px;
+	margin: 5px 10px;
 
+}
+#box1 p{
+	font-size: 10px;
+	display: inline-block;
+	margin: 0px 0px 5px 0px;
+	font-family: sans-serif;
 }
 #box2{
 	margin: 170px  0 0 0px;
