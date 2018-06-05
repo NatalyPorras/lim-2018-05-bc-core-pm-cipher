@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 }
-@media all and (min-width: 1px) {
+@media only screen and (max-width: 1824px) {
 	header{
 		/* Reverse the axis of the header, making it vertical. */
 		flex-direction: column;
@@ -11,9 +11,6 @@ body{
 		align-items: flex-start;
 		padding: 10px 0px;
 		background-color:#3366ff;
-
-	
-
 }
 #iconC{
 	display: inline-block;
@@ -123,6 +120,133 @@ hr{
 	
 }
 
+
+#pieP{
+	
+	position: absolute;
+	right: 20px;
+	margin: 20px 0;
+}
+#pieP p{
+	font-family: sans-serif;
+	color:black;
+	margin: 0;
+	font-size: 10px;
+}
+}
+@media only screen and (max-width: 360px) {
+	header{
+		/* Reverse the axis of the header, making it vertical. */
+		flex-direction: column;
+		
+		/* Align items to the begining (the left) of the header. */
+		align-items: flex-start;
+		padding: 10px 0px;
+		background-color:#3366ff;
+}
+#iconC{
+	display: inline-block;
+	position: relative;
+	left: 30%;	
+	font-size: 20px;
+}
+header h2{
+	display: inline-block;
+	position: relative;
+		margin: 0px 30%;
+		font-family: 'kavivanar-Regular';
+		font-size: 15px;
+		color: white;
+}		
+hr{
+	margin: 0;
+}
+#general{
+	background-image: url("imagenes/fondo12.jpg");
+	background-repeat: no-repeat;
+	width: auto;
+	height: 600px;
+	margin: 0;
+}
+#mov {
+	padding: 10px 0;
+	font-size: 10px;
+}
+
+#mov p{
+	text-align: center;
+	font-family: sans-serif;
+	margin: 0;
+}
+#mov input{
+	text-align: center;
+	margin : 10px 0px 0px 35%;
+	font-size: 10px;
+}
+#box1{
+	padding: 20px 0;
+}
+#box1 #paintText{
+	display: block;
+	position: relative;
+	left: 10%;
+	padding: 5px;
+}
+#box1 p{
+	font-size: 10px;
+	margin: 0px 0px 5px 0px;
+	font-family: sans-serif;
+}
+#box1 #iconF{
+	display: block;
+	transform: rotate(90deg);
+	left: 48%;
+	margin: 15px 0px;
+
+	font-size: 25px;
+}
+#box1 #cipherText{
+	display: inline-block;
+	position: absolute;
+	left: 10%;
+	padding: 5px;
+	margin: 55px 0px;
+
+}
+#box2{
+	margin: 170px  0 0 0px;
+	padding: 0;
+}
+#box2 #cipherB{
+
+	font-size: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	font-family: 'kavivanar-Regular';
+	background-color: #1289A7;
+	color: white;
+}
+#box2 #decipherB{
+	display: inline-block;
+	font-size: 10px;
+	border-radius: 10px;
+	color: white;
+	font-family: 'kavivanar-Regular';
+	background-color: #1289A7;
+}
+#box2 #resetT{
+	display: inline-block;
+	font-size: 10px;
+	border-radius: 10px;
+	color: white;
+	font-family: 'kavivanar-Regular';
+	background-color: #1289A7;
+}
+#recomend{
+	font-family: 'kavivanar-Regular';
+	display: block;
+	margin: 20px 0;
+}
 
 #pieP{
 	
