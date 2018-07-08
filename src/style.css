@@ -1,4 +1,4 @@
-body{
+body {
 	margin: 0;
 	padding: 0;
 }
@@ -20,7 +20,7 @@ body{
     font-size: 70px;
   }
 
-  header,
+  header
   h2 {
     display: inline-block;
     position: relative;
@@ -47,14 +47,14 @@ body{
     font-size: 20px;
   }
 
-  #mov,
+  #mov
   p {
     text-align: center;
     font-family: sans-serif;
     margin: 0;
   }
 
-  #mov,
+  #mov
   input {
     text-align: center;
     margin : 10px 0px 0px 43%;
@@ -65,7 +65,7 @@ body{
     padding: 20px 0;
   }
 
-  #box1,
+  #box1
   #paintText {
     display: inline-block;
     position: relative;
@@ -73,14 +73,14 @@ body{
     padding: 5px;
   }
 
-  #box1,
+  #box1
   p {
     font-size: 20px;
     margin: 0px 0px 5px 0px;
     font-family: sans-serif;
   }
 
-  #box1,
+  #box1
   #iconF {
     display: inline-block;
     position: absolute;
@@ -89,7 +89,7 @@ body{
     font-size: 45px;
   }
 
-  #box1,
+  #box1
   #cipherText {
     display: inline-block;
     position: absolute;
@@ -104,7 +104,7 @@ body{
     justify-content: space-around;
   }
 
-  #box2,
+  #box2
   #cipherB {
     font-size: 20px;
     border-radius: 10px;
@@ -114,7 +114,7 @@ body{
     color: white;
   }
 
-  #box2,
+  #box2
   #decipherB {
     font-size: 20px;
     border-radius: 10px;
@@ -124,7 +124,7 @@ body{
     background-color: #1289A7;
   }
 
-  #box2,
+  #box2
   #resetT {
     font-size: 20px;
     border-radius: 10px;
@@ -147,7 +147,7 @@ body{
     margin: 20px 0;
   }
 
-  #pieP,
+  #pieP
   p {
     font-family: sans-serif;
     color: black;
@@ -164,7 +164,7 @@ body{
     padding: 10px 0px;
     background-color:#3366ff;
   }
-
+  
   #iconC {
     display: inline-block;
     position: relative;
@@ -172,7 +172,7 @@ body{
     font-size: 20px;
   }
 
-  header,
+  header
   h2 {
     display: inline-block;
     position: relative;
@@ -199,14 +199,14 @@ body{
     font-size: 10px;
   }
 
-  #mov,
+  #mov
   p {
     text-align: center;
     font-family: sans-serif;
     margin: 0;
   }
 
-  #mov,
+  #mov
   input {
     text-align: center;
     margin : 10px 0px 0px 35%;
@@ -217,14 +217,14 @@ body{
     padding: 10px 0;
   }
 
-  #box1,
+  #box1
   #paintText {
     left: 0;
     margin: 5px 0px;
     padding: 5px 10px;
   }
 
-  #box1,
+  #box1
   #iconF {
     display: block;
     transform: rotate(90deg);
@@ -233,15 +233,15 @@ body{
     font-size: 25px;
   }
 
-  #box1,
+  #box1
   #cipherText {
     left: 0;
     top : 300px;
     margin: 5px 10px;
   }
 
-  #box1 
-  ,p {
+  #box1
+  p {
     font-size: 10px;
     display: inline-block;
     margin: 0px 0px 5px 0px;
@@ -253,7 +253,7 @@ body{
     padding: 0;
   }
 
-  #box2,
+  #box2
   #cipherB {
     font-size: 10px;
     display: inline-block;
@@ -263,7 +263,7 @@ body{
     color: white;
   }
 
-  #box2,
+  #box2
   #decipherB {
     display: inline-block;
     font-size: 10px;
@@ -273,7 +273,7 @@ body{
     background-color: #1289A7;
   }
 
-  #box2,
+  #box2
   #resetT {
     display: inline-block;
     font-size: 10px;
@@ -295,7 +295,7 @@ body{
     margin: 20px 0;
   }
 
-  #pieP,
+  #pieP
   p {
     font-family: sans-serif;
     color: black;
